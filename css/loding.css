@@ -1,0 +1,12 @@
+/*preloader*/
+#preloader {
+  background: #f3f1f1
+    url("https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZGVhNjE1N2Q2YTI2OWRhNzcxZTY0YmViMzQ3ZDFiYWQ3Yzg2YTA0OSZlcD12MV91c2VyX2Zhdm9yaXRlcyZjdD1z/e7Ek7pqlcx8cEyjz4n/giphy.gif")
+    no-repeat center center;
+  background-size: 15%;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  overflow: visible;
+  z-index: 100;
+}

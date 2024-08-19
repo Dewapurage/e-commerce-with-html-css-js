@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Competible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>D3RIM - Fashion</title>
+    <!-- css file -->
+    <link rel="stylesheet" href="../css/index.css" />
+
+    <!-- fav icon -->
+    <link
+        rel="shortcut icon"
+        href="../assets/logo/favicon.ico"
+        type="image/x-icon"
+    />
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet"
+    />
+
+    <!--box icon -->
+    <link
+    href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+    rel="stylesheet"
+    />
+
+</head>
+<body>
+    <!-- header section -->
+    <header class="header">
+    <div class="header-1">
+        <!-- logo -->
+        <a href="../index.html" class="logo"
+        ><img src="../assets/logo/D3RIM.png" alt="D3RIM Logo" />
+        </a>
+        <!-- Search box -->
+        <form action="" class="search-form">
+        <input
+            type="search"
+            name=""
+            placeholder="Search product..."
+            id="search-box"
+        />
+        <label for=""><i class='bx bx-search-alt-2' id="search"></i></label>
+        </form>
+        <!-- menu-icons -->
+        <div class="icons">
+        <a href=""><i class="bx bxs-bell"></i></a>
+        <!-- <a href=""><i class="bx bxs-cart" id="cart-icon" data-quantity="0"></i></a> -->
+        <i class="bx bxs-cart" id="cart-icon" data-quantity="0"></i>
+        <a href=""><i class="bx bxs-user-circle"></i></a>
+<!-- =============side cart================= -->
+    <!-- cart -->
+    <div class="cart">
+      <h2 class="cart-title">Your Cart</h2>
+      <!-- content -->
+      <div class="cart-content"></div>
+      <!-- Total -->
+      <div class="total">
+        <div class="total-title">Total</div>
+        <div class="total-price">$0</div>
+      </div>
+      <!-- Buy button -->
+      <button type="button" class="btn-buy">Pay Now</button>
+      <!-- Close Cart -->
+      <i class="bx bx-x" id="close-cart"></i>
+    </div>
+<!-- =============End side cart================= -->  
+      </div>
+    </div>
+    <div class="header-2">
+        <nav class="navbar">
+        <a href="../index.html">Home</a>
+        <a href="#superdeal">SuperDeal</a>
+        <a href="#Service">Service</a>
+        <a href="#Saved">Saved</a>
+        <a href="#Events">Events</a>
+        </nav>
+    </div>
+  </header>
+
+    <!-- Electronic -->
+    <section class="shop-container">
+      <h2 class="section-title">Fashion</h2>
+      <!-- Shop Content -->
+      <div class="shop-content">
+        <!-- Box 1 -->
+        <div class="product-box">
+          <!-- Stripe need images that are on online on local server it will not show in stripe checkout page we have to upload online ("Blogger.com") -->
+          <img
+            src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjuki28rNQyrwj11gjelrePcEAO5oQ4W5BlkDE9RN6Xzv-wMDzInqhdfd3Ex2ZoE5O0McDSlUItUyymBzVosRY8daEZ5h4J5JJGFDrh-Z5TAQZsUoG8lCMk8oN8JgDZw9MIFvogI8M52e1maOhgXPcgSvotbzQ8mgwvJKfjnh6LvU1KY980wXdROJ_rhzZ6/s320/product1.jpeg"
+            alt="001P001"
+            class="product-img"
+          />
+          <h2 class="product-title">ADICOLOR SEASONAL</h2>
+          <span class="price">$50</span>
+          <i class="bx bxs-cart add-cart"></i>
+        </div>
+        <!-- Box 2 -->
+        <div class="product-box">
+          <!-- ("Blogger.com") -->
+          <img
+            src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjgrx_gi8SqYjH0iZSZsGZYYLi5X0fj80ot74AjMBL-MQkuvT5yaZEeGi2jvkmeCga0ev5bXnDTo_Sbea6AuNeJ0Pfm0z-SclQ0lU7nQVtd5Zh-BjuTrki2njazJ_K2IYDCivFNynMN5IOQVodDgjSY5LnpL8anZ21moEqhGqT0YZoaFNj3Z9OTB6avDSkx/s320/product2.jpeg"
+            alt="001P002"
+            class="product-img"
+          />
+          <h2 class="product-title">SATURDAY BACKPACK</h2>
+          <span class="price">$70.99</span>
+          <i class="bx bxs-cart add-cart"></i>
+        </div>
+        <!-- Box 3 -->
+        <div class="product-box">
+          <!-- ("Blogger.com") -->
+          <img
+            src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhHyYHVGnuvUnIYgiba2HTTnK0jof1j3wNLxurVdTYKB9bti1g8XXJgUjBUIeuv6E1TaXM8-tpq_nwYqht1Iog7U3Thm-xdCRBrwdONgdv6In-2ULn-LGikq2YxvvEYtEw-QgcWXEgDitmsvSf1h4I87cKtDvVxRYPExS2fBP-dHNfxzw3peL5BZIXqMspu/s320/product3.jpeg"
+            alt="001P003"
+            class="product-img"
+          />
+          <h2 class="product-title">ULTIMATE HAT</h2>
+          <span class="price">$24.98</span>
+          <i class="bx bxs-cart add-cart"></i>
+        </div>
+        <!-- Box 4 -->
+        <div class="product-box">
+          <!-- ("Blogger.com") -->
+          <img
+            src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh8190N5-OM8Mnd15pwgADBp5GuHsoLc64hYvc8SxSNVypQcYup8wdVVKYrqkpMI8fHNjW4lc5mTXb2BMhO0vtU09vLlrpeYhAhnLHO3Z5ETfzWQ_68NGo43BUBsAdJ8FCVllRAiZzwX2G8XYBX-_btBFS6cMA1EjXW-3VBp57USYOD22vyrcvw2uzfdR6Y/s320/product4.jpeg"
+            alt="001P004"
+            class="product-img"
+          />
+          <h2 class="product-title">MESSI GOAT TEE</h2>
+          <span class="price">$100</span>
+          <i class="bx bxs-cart add-cart"></i>
+        </div>
+        <!-- Box 5 -->
+        <div class="product-box">
+          <!-- ("Blogger.com") -->
+          <img
+            src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgBDgtDA1yiUYDbbG3Ad83ybZRNiJ6EE1F3cKVPzVbgYYPfJP8tLCzeAg3uEOkFIPWB5RUuNbRCUGRXCeN_XW9Famah9-V9OqyElRRkLUKWGAF9515v7J_7qfcVqHrwY8LAXS9PwNHJwcL8LSL67eO75O76UkmySNmM4NbEgk5Fw64Gv2-s06_gLo_yqTak/s320/product5.jpeg"
+            alt="001P005"
+            class="product-img"
+          />
+          <h2 class="product-title">ADICOLOR HOODIE</h2>
+          <span class="price">$80.50</span>
+          <i class="bx bxs-cart add-cart"></i>
+        </div>
+        <!-- Box 6 -->
+        <div class="product-box">
+          <!-- ("Blogger.com") -->
+          <img
+            src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgE2aZHm_xY44zmhCHj8G2oWgDKCMvDpwOv07Uj4cN6b4Tk5R1oUM7yeC4E6aoCYebb_SlQ258cJdDGtZ5AwgWKUwVimEkoy3CwrEWtkzmwq0Ue1Il07u4dbR0OTkmZeup5dyXCOyWuxX8ZuYoYggFUzyzj-3Mu4O9gVsV53jGknKexgw4L1TbX1Bd8erXx/s320/product6.jpeg"
+            alt="001P006"
+            class="product-img"
+          />
+          <h2 class="product-title">ADIDAS EARBUDS</h2>
+          <span class="price">$200</span>
+          <i class="bx bxs-cart add-cart"></i>
+        </div>
+        <!-- Box 7 -->
+        <div class="product-box">
+          <!-- ("Blogger.com") -->
+          <img
+            src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgXpBFKjLoDxI6GrmdoUnyBWR4fS8Uy91GxVV-nwa1Ua2-xDn2jSalC_0V46zudXLGeM-_f14bRUG3cQV8JqvCmw3cB93iBAo6FZuQYGbxLCuxUemun-rdzsq6yeWHBw9RHyGmqXhtTBcLJN4dzG3EBobcRc1KdH8uNRhYsy1Fw-78z-e8KxdQPO49eeW6X/s320/product7.jpeg"
+            alt="001P007"
+            class="product-img"
+          />
+          <h2 class="product-title">METALBOTTEL 1L</h2>
+          <span class="price">$80.04</span>
+          <i class="bx bxs-cart add-cart"></i>
+        </div>
+        <!-- Box 8 -->
+        <div class="product-box">
+          <!-- ("Blogger.com") -->
+          <img
+            src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiTGiMBtxwbcCVf8M4Vkf_Ux0kR25yVinnY3pLPj0pw8gehroUYS-Xv1kwKPbLhf1iZZyvsxbbBwPmKlQ5Vxx-LnUtOWJFO7gquVkjdrCyjkjTVNgKKM-bWjcLq2WahoDgt4ZpEM_FwB5FqxfHRLYkOk4Ck0t6h1nMJZS4B6y0A5lB3PRKoXnawrzYHpU7X/s320/product8.jpeg"
+            alt="001P008"
+            class="product-img"
+          />
+          <h2 class="product-title">ULTRABOOST SHOES</h2>
+          <span class="price">$280</span>
+          <i class="bx bxs-cart add-cart"></i>
+        </div>
+        <!-- Box 9 -->
+        <div class="product-box">
+          <!-- ("Blogger.com") -->
+          <img
+            src="https://assets.adidas.com/images/w_600,f_auto,q_auto/69e425d4f2e049e1b22bafc500b4ed50_9366/adidas_Adventure_Tech_Cap_Multicolor_II3338_01_standard.jpg"
+            alt="001P009"
+            class="product-img"
+          />
+          <h2 class="product-title">BLACK CAP</h2>
+          <span class="price">$28</span>
+          <i class="bx bxs-cart add-cart"></i>
+        </div>
+
+        <!-- Box 10 -->
+        <div class="product-box">
+          <!-- ("Blogger.com") -->
+          <img
+            src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/bf4d456f-916a-4e74-ae3f-2467196e7fbe/kevin-durant-basketball-t-shirt-1L0gsg.png"
+            alt="001P010"
+            class="product-img"
+          />
+          <h2 class="product-title">NIKE T-SHIRT</h2>
+          <span class="price">$51</span>
+          <i class="bx bxs-cart add-cart"></i>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="row">
+          <div class="footer-col">
+            <h4>D3RIM Shopping</h4>
+            <ul>
+              <li><a href="">About us</a></li>
+              <li><a href="">Our services</a></li>
+              <li><a href="">Privacy policy</a></li>
+              <li><a href="">Affiliate program</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h4>Get Help</h4>
+            <ul>
+              <li><a href="">FAQ</a></li>
+              <li><a href="">Shipping</a></li>
+              <li><a href="">Returns</a></li>
+              <li><a href="">Order Status</a></li>
+              <li><a href="">Payment options</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h4>Online Shop</h4>
+            <ul>
+              <li><a href="">Watches</a></li>
+              <li><a href="">Bag</a></li>
+              <li><a href="">Shoes</a></li>
+              <li><a href="">Dress</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h4>Follow US</h4>
+            <div class="social-links">
+              <a href="" class="Social-links"
+                ><i class="bx bxl-facebook-circle"></i
+              ></a>
+              <a href="" class="Social-links"><i class="bx bxl-twitter"></i></a>
+              <a href="" class="Social-links"
+                ><i class="bx bxl-instagram-alt"></i
+              ></a>
+              <a href="" class="Social-links"
+                ><i class="bx bxl-linkedin-square"></i
+              ></a>
+              <br />
+              <img
+                src="./assets/qrcode_122331741_115bca93626d0c93a8a659b527486ccc.png"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+    <!-- JS Files -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="../Script.js"></script>
+
+  </body>
+</html>
